@@ -1,0 +1,297 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"but_happyou": {
+			"type": "image",
+			"width": 510,
+			"height": 210,
+			"path": "image/but_happyou.png"
+		},
+		"but_id": {
+			"type": "image",
+			"width": 511,
+			"height": 211,
+			"path": "image/but_id.png"
+		},
+		"but_no": {
+			"type": "image",
+			"width": 311,
+			"height": 160,
+			"path": "image/but_no.png"
+		},
+		"but_ok": {
+			"type": "image",
+			"width": 411,
+			"height": 161,
+			"path": "image/but_ok.png"
+		},
+		"but_ranking": {
+			"type": "image",
+			"width": 510,
+			"height": 210,
+			"path": "image/but_ranking.png"
+		},
+		"but_s_back": {
+			"type": "image",
+			"width": 310,
+			"height": 160,
+			"path": "image/but_s_back.png"
+		},
+		"but_s_ok": {
+			"type": "image",
+			"width": 310,
+			"height": 160,
+			"path": "image/but_s_ok.png"
+		},
+		"but_sanka": {
+			"type": "image",
+			"width": 510,
+			"height": 210,
+			"path": "image/but_sanka.png"
+		},
+		"but_shimekiri": {
+			"type": "image",
+			"width": 510,
+			"height": 210,
+			"path": "image/but_shimekiri.png"
+		},
+		"but_yes": {
+			"type": "image",
+			"width": 311,
+			"height": 160,
+			"path": "image/but_yes.png"
+		},
+		"logo": {
+			"type": "image",
+			"width": 571,
+			"height": 335,
+			"path": "image/logo.png"
+		},
+		"massage_taiki": {
+			"type": "image",
+			"width": 330,
+			"height": 126,
+			"path": "image/massage_taiki.png"
+		},
+		"popup_startcheck": {
+			"type": "image",
+			"width": 1290,
+			"height": 730,
+			"path": "image/popup_startcheck.png"
+		},
+		"popup_uketsuke": {
+			"type": "image",
+			"width": 1290,
+			"height": 730,
+			"path": "image/popup_uketsuke.png"
+		},
+		"key_0": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_0.png"
+		},
+		"key_1": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_1.png"
+		},
+		"key_2": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_2.png"
+		},
+		"key_3": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_3.png"
+		},
+		"key_4": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_4.png"
+		},
+		"key_5": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_5.png"
+		},
+		"key_6": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_6.png"
+		},
+		"key_7": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_7.png"
+		},
+		"key_8": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_8.png"
+		},
+		"key_9": {
+			"type": "image",
+			"width": 318,
+			"height": 210,
+			"path": "image/key_9.png"
+		},
+		"joinmember": {
+			"type": "image",
+			"width": 503,
+			"height": 122,
+			"path": "image/joinmember.png"
+		},
+		"quiz_next": {
+			"type": "image",
+			"width": 310,
+			"height": 186,
+			"path": "image/quiz_next.png"
+		},
+		"quiz_now": {
+			"type": "image",
+			"width": 1059,
+			"height": 170,
+			"path": "image/quiz_now.png"
+		},
+		"quiz_prev": {
+			"type": "image",
+			"width": 310,
+			"height": 186,
+			"path": "image/quiz_prev.png"
+		},
+		"quiz_select_border_g": {
+			"type": "image",
+			"width": 895,
+			"height": 180,
+			"path": "image/quiz_select_border_g.png"
+		},
+		"quiz_wait": {
+			"type": "image",
+			"width": 1059,
+			"height": 170,
+			"path": "image/quiz_wait.png"
+		},
+		"waiting": {
+			"type": "image",
+			"width": 503,
+			"height": 122,
+			"path": "image/waiting.png"
+		},
+		"quiz_selector_a": {
+			"type": "image",
+			"width": 891,
+			"height": 194,
+			"path": "image/quiz_selector_a.png"
+		},
+		"quiz_selector_b": {
+			"type": "image",
+			"width": 891,
+			"height": 194,
+			"path": "image/quiz_selector_b.png"
+		},
+		"quiz_selector_c": {
+			"type": "image",
+			"width": 891,
+			"height": 194,
+			"path": "image/quiz_selector_c.png"
+		},
+		"quiz_selector_d": {
+			"type": "image",
+			"width": 891,
+			"height": 194,
+			"path": "image/quiz_selector_d.png"
+		},
+		"no_join_message": {
+			"type": "image",
+			"width": 1059,
+			"height": 170,
+			"path": "image/no_join_message.png"
+		},
+		"result_header": {
+			"type": "image",
+			"width": 1921,
+			"height": 155,
+			"path": "image/result_header.png"
+		},
+		"result_o": {
+			"type": "image",
+			"width": 223,
+			"height": 223,
+			"path": "image/result_o.png"
+		},
+		"result_x": {
+			"type": "image",
+			"width": 259,
+			"height": 258,
+			"path": "image/result_x.png"
+		},
+		"ranking_bg": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/ranking_bg.png"
+		},
+		"quiz_open": {
+			"type": "audio",
+			"path": "audio/quiz_open",
+			"systemId": "sound",
+			"duration": 1649
+		},
+		"select": {
+			"type": "audio",
+			"path": "audio/select",
+			"systemId": "sound",
+			"duration": 998
+		},
+		"font": {
+			"type": "image",
+			"width": 256,
+			"height": 268,
+			"path": "image/font.png"
+		},
+		"font_glyphs": {
+			"type": "text",
+			"path": "text/font_glyphs.json"
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-hover-plugin": "node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+		"@akashic-extension/resolve-player-info": "node_modules/@akashic-extension/resolve-player-info/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"niconico": {
+			"supportedModes": [
+				"multi"
+			]
+		},
+		"external": {
+			"coeLimited": "0"
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/Converter.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/HoverPlugin.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+		"node_modules/@akashic-extension/resolve-player-info/lib/FallbackDialog.js",
+		"node_modules/@akashic-extension/resolve-player-info/lib/index.js"
+	]
+}
