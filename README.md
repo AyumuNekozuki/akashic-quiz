@@ -1,3 +1,12 @@
+# akashic-chokentei
+
+is [HERE](https://game.nicovideo.jp/atsumaru/games/gm19296?link_in=users)
+
+## Author
+AyumuNekozuki / @nekozuki_dev
+
+---
+
 # javascript-game-sample
 
 **javascript-game-sample**はJavaScriptでAkashicのゲームを作る際のサンプルプロジェクトです。

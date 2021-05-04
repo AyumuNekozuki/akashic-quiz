@@ -40,7 +40,7 @@ function main(param) {
   });
 
   //クイズ追加時記載場所
-  const quizids = ["9","000000","000001","000002","000003","252539"];
+  const quizids = ["9","000000","000001","000002","000003","252539","25255108","2825285"];
   function quiz_setting(){
     if(quizid == "9"){
       quizid = "9"
@@ -77,6 +77,18 @@ function main(param) {
       quizname = "テスト問題03";
       quiz_num = 20;
       quiz_ans = ["d","c","a","a","a","b","d","d","c","a","a","c","c","d","d","c","b","c","c","a"]
+    }
+    if(quizid == "25255108"){
+      quizid = "25255108"
+      quizname = "超検定本番①";
+      quiz_num = 20;
+      quiz_ans = ["c","a","b","c","c","b","a","c","b","a","b","b","a","c","b","d","d","c","d","b"]
+    }
+    if(quizid == "2825285"){
+      quizid = "2825285"
+      quizname = "超検定本番②";
+      quiz_num = 20;
+      quiz_ans = ["b","a","b","b","a","d","b","c","b","a","d","a","b","b","b","a","c","b","c","c"]
     }
   }
   //ここまで
@@ -793,9 +805,19 @@ function main(param) {
       }
 
       game_scene.message.add((ev) =>{
-        //クイズ問題追加時記載場所
+        //クイズ追加時記載場所
         if(ev.data.message == "id:9"){
           quizid = "9";
+          quiz_setting();
+          status_now_quiz.invalidate();
+        }
+        if(ev.data.message == "id:2825285"){
+          quizid = "2825285";
+          quiz_setting();
+          status_now_quiz.invalidate();
+        }
+        if(ev.data.message == "id:25255108"){
+          quizid = "25255108";
           quiz_setting();
           status_now_quiz.invalidate();
         }
